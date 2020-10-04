@@ -1,0 +1,21 @@
+{
+  "name": "glsl-matrix",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "start": "npm run dev",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
